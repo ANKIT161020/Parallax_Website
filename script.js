@@ -1,5 +1,7 @@
 let parallex_el = document.querySelectorAll(".parallax")
 let text_el = document.querySelector(".text")
+let next = document.querySelector(".next")
+let prev = document.querySelector(".prev")
 
 let xValue=0,yValue =0;
 
@@ -64,3 +66,15 @@ timeline.from(
   },
   "1"
 )
+
+
+next.addEventListener('click',()=>{
+  let cards = document.querySelectorAll(".card_img")
+  document.querySelector(".place_img").appendChild(cards[0])
+})
+
+
+prev.addEventListener('click',()=>{
+  let cards = document.querySelectorAll(".card_img")
+  document.querySelector(".place_img").prepend(cards[cards.length-1])
+})
