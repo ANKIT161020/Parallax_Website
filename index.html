@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mumbai-Parallax</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
   <body>
     <div class="vintage"></div>
@@ -18,6 +21,14 @@
           <li><a href="#">Places</a></li>
         </ul>
       </nav>
+      <div class="modes">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="checkbox-label">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <span class="ball"></span>
+        </label>
+      </div>
     </header>
 
     <main>
@@ -60,16 +71,97 @@
       <h1>Places To Visit</h1>
       <div class="container">
         <div class="palce_info">
-          <h2 class="place_name">Marine Lines</h2>
-          <p class="place_desc">Marine Lines is a locality in South Mumbai. The name Marine Lines is derived from the Marine Battalion Lines, a military establishment built by the British in the 19th century.[2] The battalion was later converted to an air force residential quarters, and now lies just south of Metro Adlabs. </p>
+          <h2 class="place_name animate">Elephanta Caves</h2>
+          <p class="place_desc animate">
+            A captivating UNESCO World Heritage Site, the Elephanta Caves boast
+            ancient rock-cut temples with intricate sculptures dedicated to Lord
+            Shiva. Accessible by a short ferry ride from Mumbai, it offers a
+            unique blend of history, spirituality, and natural beauty.
+          </p>
         </div>
         <div class="place_img">
-          <div class="card_img" style="background-image: url(./assets/card_img1.jpg);"></div>
-          <div class="card_img" style="background-image: url(./assets/card_img2.jpg);"></div>
-          <div class="card_img" style="background-image: url(./assets/card_img3.jpg);"></div>
-          <div class="card_img" style="background-image: url(./assets/card_img4.jpg);"></div>
-          <div class="card_img" style="background-image: url(./assets/card_img5.jpg);"></div>
-          <div class="card_img" style="background-image: url(./assets/card_img6.jpg);"></div>
+          <div
+            class="card_img"
+            style="background-image: url(./assets/card_img1.jpg)"
+          >
+            <button class="viewmore">
+              <a
+                href="https://en.wikipedia.org/wiki/Marine_Lines"
+                target="_blank"
+                >View More...</a
+              >
+            </button>
+          </div>
+          <div
+            class="card_img"
+            style="background-image: url(./assets/card_img2.jpg)"
+          >
+            <button class="viewmore">
+              <a
+                href="https://en.wikipedia.org/wiki/Bandra%E2%80%93Worli_Sea_Link "
+                target="_blank"
+                >View More...</a
+              >
+            </button>
+          </div>
+          <div
+            class="card_img"
+            style="background-image: url(./assets/card_img3.jpg)"
+          >
+            <button class="viewmore">
+              <a
+                href="https://en.wikipedia.org/wiki/Elephanta_Caves"
+                target="_blank"
+                >View More...</a
+              >
+            </button>
+          </div>
+          <div
+            class="card_img"
+            style="background-image: url(./assets/card_img4.jpg)"
+          >
+            <button class="viewmore">
+              <a
+                href="https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_Terminus"
+                target="_blank"
+                >View More...</a
+              >
+            </button>
+          </div>
+          <div
+            class="card_img"
+            style="background-image: url(./assets/card_img5.jpg)"
+          >
+            <button class="viewmore">
+              <a
+                target="_blank"
+                href="https://en.wikipedia.org/wiki/Gateway_of_India"
+                >View More...</a
+              >
+            </button>
+          </div>
+          <div
+            class="card_img"
+            style="background-image: url(./assets/card_img6.jpg)"
+          >
+            <button class="viewmore">
+              <a
+                href="https://en.wikipedia.org/wiki/Taj_Hotels "
+                target="_blank"
+                >View More...</a
+              >
+            </button>
+          </div>
+          <div
+            class="card_img"
+            style="background-image: url(./assets/card_img7.jpg)"
+          >
+            <button class="viewmore">
+              <a href="https://en.wikipedia.org/wiki/Juhu " target="_blank"
+                >View More...</a
+              >
+            </button>
+          </div>
         </div>
         <div class="btns">
           <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
@@ -77,6 +169,23 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <p>Made by <b>Ankit Bhanushali</b></p>
+      <div class="icons">
+        <a
+          href="https://m.facebook.com/profile.php/?id=100008428535587"
+          target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/abhanushali2808/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://github.com/ANKIT161020" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </footer>
 
     <script src="list.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
